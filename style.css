@@ -1,6 +1,20 @@
+/* Modify the background color */
+.bg-custom {
+  background-color: #ff6a00;
+}
+.navbar-custom {
+  background-color: rgb(11, 11, 11);
+}
+/* Modify brand and text color */
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: white;
+}
+
 .jumbotron {
   padding-top: 6rem;
-  background-color: #e2edff;
+  background-color: #ff6a00;
   height: 100vh;
   position: relative;
 }
