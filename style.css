@@ -1,15 +1,18 @@
-/* Modify the background color */
-.bg-custom {
-  background-color: #ff6a00;
-}
-.navbar-custom {
+.navbar {
   background-color: rgb(11, 11, 11);
 }
-/* Modify brand and text color */
 
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
+.navbar-text,
+.navbar-brand,
+.nav-link {
   color: white;
+}
+.navbar-brand:hover {
+  color: #ff6a00;
+}
+
+.nav-link:hover {
+  color: #ff6a00;
 }
 
 .jumbotron {
@@ -31,6 +34,10 @@
 
 section {
   padding-top: 5rem;
+}
+
+.custom-bg-color {
+  background-color: #ff6a00;
 }
 
 /* Media Query ketika dibuka di mobile */
